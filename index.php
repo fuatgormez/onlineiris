@@ -1,4 +1,5 @@
 <?php
+echo 'selam';
 // ini_set('memory_limit', '-1');
 /**
  * CodeIgniter
