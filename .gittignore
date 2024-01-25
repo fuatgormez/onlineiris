@@ -1,0 +1,20 @@
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!system/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#codeigniter 3
+AppFG/config/config.php
+AppFG/config/database.php
+AppFG/logs/*
+!AppFG/logs/index.html
+!AppFG/logs/.htaccess
+/vendor/
