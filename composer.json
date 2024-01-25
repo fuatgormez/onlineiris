@@ -1,0 +1,19 @@
+{
+    "name": "fuat/v3",
+    "authors": [
+        {
+            "name": "Fuat",
+            "email": "fuatgormez@me.com"
+        }
+    ],
+    "require": {
+        "mollie/mollie-api-php": "^2.0",
+        "mollie/oauth2-mollie-php": "^2.0",
+        "mpdf/mpdf": "^8.0",
+        "jimmiw/php-time-ago": "^3.2",
+        "facebook/php-business-sdk": "^8.0.3",
+        "postfinancecheckout/sdk": "^3.0",
+        "twilio/sdk": "^7.3",
+        "gumlet/php-image-resize": "^2.0"
+    }
+}
