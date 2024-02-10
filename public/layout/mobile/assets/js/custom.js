@@ -294,16 +294,18 @@ var Foodia = (function () {
         if (res.status === 200) {
           var html = `<i class="fa fa-4x fa-check-circle text-success m-b15"></i>
 
-					<h5 id="_order_number">${res.order.order_number}</h5>
+					<h5 id="_order_number" class="d-none">${res.order.order_number}</h5>
 
-          <p class="m-b0" id="_name">${res.order.billing_firstname}</p>
-          <img class="upload_input_image" src="http://upload.wikimedia.org/wikipedia/commons/c/ca/Button-Lightblue.svg" width="30px"/>
+          <p class="m-b0 d-none" id="_name">${res.order.billing_firstname}</p>
 
           <form action="${base_url}mobile/order/upload" name="form_upload" id="formWithFiles" method="post" enctype="multipart/form-data">
 
           <input type="hidden" name="order_number" value="${res.order.order_number}"/>
 
+          <label for="image">
+          <img class="upload_input_image" src="/public/uploads/upload_thumbnail.jpg"/>
           <input type="file" class="form-control m-t20 input_upload" id="input_upload" name="photos[]" multiple/>
+          </label>
 
           <div class="me-2 mt-3 mb-2 d-flex align-items-center text-primary d-none upload_image_loader">
 
