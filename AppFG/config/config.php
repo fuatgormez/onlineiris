@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 date_default_timezone_set('Europe/Berlin');
-$config['base_url'] = 'https://www.onlineiris.com/';
+$config['base_url'] = 'http://onlineiris:8888/';
 
 /*
 |--------------------------------------------------------------------------
